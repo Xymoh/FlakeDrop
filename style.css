@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+
+}
+
+body {
+    align-content:space-around;
+    background-color:#202830;
+    color:#ffffff;
+    display:grid;
+    justify-content: center;
+}
+
+canvas {
+    background-color: #ffffff;
+}
+
+button {
+    width: 20%;
+    height: 150%;
+    margin-left: 39%;
+    font-size: 22px;
+    font-family: fantasy;
+    color:#FF0099;
+    background-color: #00FFFF;
+    border: 2px solid #FF6600;
+}
+
+button:hover {
+    background-color: #099FFF;
+    border: 2px solid #FF3300;
+    color: #CC00FF;
+}
+
+.button:active {
+    background-color: #FF0000;
+    border: 2px solid #FFFF33;
+    color: #00FF66;
+}
